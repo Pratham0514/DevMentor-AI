@@ -6,7 +6,7 @@ const connectDB= async()=>{
     } catch (error) {
         console.error("Error connecting to MongoDB ❌📦:", error);
         process.exit(1);
-        //process.exit(1); is used to immediately stop the Node.js application when a serious error occurs.
+
     }
 }
 export default connectDB
